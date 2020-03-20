@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>원희야 잘하자</title>
+
+
+    <!--글씨체-->
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap" rel="stylesheet">
+
+    <style>
+        .pic1 {
+            width: 710px;
+            margin: auto;
+        }
+
+        .body {
+            margin: 0;
+
+        }
+
+        .container {
+            width: 700px;
+            margin: auto;
+        }
+
+        .btn1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input[type=button] {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 6px 20px;
+            margin: px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid greenyellow;
+        }
+
+
+        * {
+            font-family: 'Sunflower', sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="pic1">
+        <img
+            src="https://post-phinf.pstatic.net/MjAxODA5MDhfMjU5/MDAxNTM2MzcwMDg5MTQz.rZToVOWzVxm2syXD_uD4Vh3-1_0iBmxKKh3JYDAc7uAg.6EYB8kG1TKtGwnoaHPXIYACjIZyFHoIZtyvGPlhwjV0g.JPEG/na6q67fl5z7w1ta6fuo0.jpg?type=w1200">
+    </div>
+
+
+    <div class="container">
+        <h1>반짝이는 쿼카 <span>가격:100,000원 / 마리</span></h1>
+        <p>
+            쿼카는 캥거루과의 소형동물이에요.
+            성체의 무게는 3kg이며 초식성이에요.
+            친화력이 좋고, 겁이 없기 때문에 사람들에게 잘 다가가는 댕댕이랍니다.
+        </p>
+    </div>
+
+
+    <div class="container">
+        <span class="input-group-text" id="주문자이름">주문자 이름</span>
+        <input type="text">
+    </div>
+
+    <div class="container">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">수량</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+            <option selected>--수량을 선택하세요--</option>
+            <option value="1">한마리</option>
+            <option value="2">두마리</option>
+            <option value="3">세마리</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <span class="input-group-text" id="주문자이름">주소</span>
+        <input type="text">
+    </div>
+
+    <div class="container">
+        <span class="input-group-text" id="전화번호">주소</span>
+        <input type="text">
+    </div>
+
+    <div class="btn1">
+        <input type="button" value="주문하기">
+    </div>
+
+
+
+
+
+</body>
+
+</html>
